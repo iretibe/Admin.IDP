@@ -1,0 +1,307 @@
+﻿{
+   "ContextClassName": "PersoltaxadmindbContext",
+   "ContextNamespace": "Entity",
+   "DefaultDacpacSchema": null,
+   "DoNotCombineNamespace": false,
+   "IdReplace": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": "Entity",
+   "OutputContextPath": "Entity",
+   "OutputPath": "Entity",
+   "ProjectRootNamespace": "Admin.IDP",
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[__EFMigrationsHistory]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ApiResourceClaims]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ApiResourceProperties]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ApiResources]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ApiResourceScopes]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ApiResourceSecrets]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ApiScopeClaims]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ApiScopeProperties]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ApiScopes]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AspNetRoleClaims]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AspNetRoles]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AspNetUserClaims]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AspNetUserLogins]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AspNetUserRoles]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AspNetUsers]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AspNetUserTokens]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ClientClaims]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ClientCorsOrigins]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ClientGrantTypes]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ClientIdPRestrictions]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ClientPostLogoutRedirectUris]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ClientProperties]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ClientRedirectUris]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Clients]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ClientScopes]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ClientSecrets]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DeviceCodes]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[IdentityResourceClaims]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[IdentityResourceProperties]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[IdentityResources]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PersistedGrants]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[psAdAccount]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[psAdAccountApp]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[psAdCompany]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[psAdPersonelAppReqRights]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[psAdPersonelSegmentRequest]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[psAdPersonnel]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[psAdPersonnelRequest]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[psAdRegistry]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[psAdReportFilter]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[psAdReportSort]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[psAdSegment]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[psAdSegmentTrans]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[psAdUser]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[psAdUserApp]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[psAdUserApp_Log]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[psAdUserGroup]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[psAdUserGroup_Log]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[psAdUserGroupApp]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[psAdUserGroupApp_Log]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[psAdUserGroupSegment]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[psAdUserGroupSegment_Log]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[psAdUserSegment]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[psAdUserSegment_Log]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[psAuditTrail]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[psAuthorisation]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[psExchangeRate_Log]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[psLogs]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[psUserAction]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[psUserRequest]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[spAdReportGroup]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[spApps]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[spAuthLevel]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[spAuthorization]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[spGroupAuth]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[spPersonnel]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[spProjects]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[spReportFilterOptions]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[spReportItems]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[spStrings]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TempSegment]"
+      }
+   ],
+   "UseDatabaseNames": true,
+   "UseDbContextSplitting": true,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": true,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseSpatial": false
+}
